@@ -26,6 +26,7 @@ body {
     background: var(--secondary);
     overflow-x: hidden;
     font-family: 'Rubik Regular';
+    font-size: 20px;
 }
 
 .button {
@@ -71,7 +72,24 @@ h1, h3 {
     font-size: 1.2em;
 }
 
+h2 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+.leading {
+    font-size: 1.1em;
+}
+
 /* mobile styles */
+
+
+
+
+
 
 /* small tablet styles */
 @media screen and (min-width: 620px) {
@@ -81,9 +99,21 @@ h1, h3 {
 /* large tablets & laptop */
 @media screen and (min-width: 960px) {
 
+    body {
+        font-size: 18px;
+    }
+
 }
 
 /* desktop styles */
 @media screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+}
 
+/* grid testing */
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
